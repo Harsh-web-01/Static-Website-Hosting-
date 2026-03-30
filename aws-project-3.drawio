@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15" version="29.6.6">
   <diagram name="RAG Architecture" id="1JxDvbuUFvuN23e5QEoj">
-    <mxGraphModel dx="112840" dy="103167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="900" pageHeight="1600" background="light-dark(#FFFFFF,#3399FF)" math="0" shadow="0">
+    <mxGraphModel dx="167957" dy="179916" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1600" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,14 +49,14 @@
         <mxCell id="-ZqPqNif731-y9DCfJDb-35" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" value="" vertex="1">
           <mxGeometry height="78" width="78" x="-6211" y="-3551" as="geometry" />
         </mxCell>
-        <mxCell id="-ZqPqNif731-y9DCfJDb-36" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#000000);" value="">
+        <mxCell id="-ZqPqNif731-y9DCfJDb-36" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#000000);" target="-ZqPqNif731-y9DCfJDb-34" value="">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-6270" y="-3730" />
-              <mxPoint x="-6270" y="-3730" />
+              <mxPoint x="-6186" y="-3730" />
+              <mxPoint x="-6186" y="-3730" />
             </Array>
-            <mxPoint x="-6327" y="-3729.999999999942" as="sourcePoint" />
-            <mxPoint x="-6180" y="-3730" as="targetPoint" />
+            <mxPoint x="-6336" y="-3729.999999999942" as="sourcePoint" />
+            <mxPoint x="-6191" y="-3734" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-ZqPqNif731-y9DCfJDb-37" parent="1" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#01A88D;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.bedrock;" value="" vertex="1">
@@ -92,7 +92,7 @@
         <mxCell id="-ZqPqNif731-y9DCfJDb-47" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;AWS Lambda&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="-6396" y="-3582" as="geometry" />
         </mxCell>
-        <mxCell id="-ZqPqNif731-y9DCfJDb-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Ingestion pipelining&lt;/span&gt;" vertex="1">
+        <mxCell id="-ZqPqNif731-y9DCfJDb-48" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Query Orchestrator (Lambda)&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="60" x="-6396" y="-3463" as="geometry" />
         </mxCell>
         <mxCell id="-ZqPqNif731-y9DCfJDb-49" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Text converted into embeddings using Amazon Titan&lt;/span&gt;" vertex="1">
@@ -122,8 +122,8 @@
         <mxCell id="-ZqPqNif731-y9DCfJDb-55" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" value="" vertex="1">
           <mxGeometry height="80" width="78" x="-6653" y="-3780" as="geometry" />
         </mxCell>
-        <mxCell id="-ZqPqNif731-y9DCfJDb-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Query pipelining&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="60" x="-6644" y="-3700" as="geometry" />
+        <mxCell id="-ZqPqNif731-y9DCfJDb-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Query Orchestrator (Lambda)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="125" x="-6669" y="-3700" as="geometry" />
         </mxCell>
         <mxCell id="-ZqPqNif731-y9DCfJDb-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Query converted into embedding using Amazon Titan&lt;/span&gt;" vertex="1">
           <mxGeometry height="60" width="170" x="-6575" y="-3800" as="geometry" />
@@ -143,7 +143,7 @@
         <mxCell id="-ZqPqNif731-y9DCfJDb-62" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Embeddings retrieval(Context)&lt;/span&gt;" vertex="1">
           <mxGeometry height="30" width="136" x="-6411" y="-3840" as="geometry" />
         </mxCell>
-        <mxCell id="-ZqPqNif731-y9DCfJDb-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#006EAF;fillColor=#1ba1e2;fontColor=#ffffff;" value="RAG Orchestration(Context and Query)" vertex="1">
+        <mxCell id="-ZqPqNif731-y9DCfJDb-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#A50040;fillColor=#d80073;fontColor=#ffffff;" value="RAG Orchestration(Context and Query)" vertex="1">
           <mxGeometry height="60" width="165" x="-6440" y="-3940" as="geometry" />
         </mxCell>
         <mxCell id="-ZqPqNif731-y9DCfJDb-64" edge="1" parent="1" source="-ZqPqNif731-y9DCfJDb-34" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#000000);" value="">
@@ -206,15 +206,15 @@
             <mxPoint x="-6360" y="-4000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-ZqPqNif731-y9DCfJDb-76" edge="1" parent="1" source="-ZqPqNif731-y9DCfJDb-55" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.009;entryY=0.851;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#000000);" target="-ZqPqNif731-y9DCfJDb-63" value="">
+        <mxCell id="-ZqPqNif731-y9DCfJDb-76" edge="1" parent="1" source="-ZqPqNif731-y9DCfJDb-55" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#000000);" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="-6680" y="-3740" />
-              <mxPoint x="-6680" y="-3890" />
-              <mxPoint x="-6560" y="-3890" />
+              <mxPoint x="-6680" y="-3910" />
+              <mxPoint x="-6565" y="-3910" />
             </Array>
             <mxPoint x="-6650" y="-3840" as="sourcePoint" />
-            <mxPoint x="-6450" y="-3890" as="targetPoint" />
+            <mxPoint x="-6441" y="-3910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-ZqPqNif731-y9DCfJDb-77" edge="1" parent="1" source="-ZqPqNif731-y9DCfJDb-60" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=light-dark(#000000,#000000);" value="">
@@ -227,11 +227,14 @@
             <mxPoint x="-6660" y="-3720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-ZqPqNif731-y9DCfJDb-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Receives &amp;nbsp;the answers&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="136" x="-6636" y="-4066" as="geometry" />
+        <mxCell id="-ZqPqNif731-y9DCfJDb-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Returns Generated Response&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="167" x="-6667" y="-4066" as="geometry" />
         </mxCell>
-        <mxCell id="-ZqPqNif731-y9DCfJDb-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Sends Context + Query&lt;/span&gt;" vertex="1">
-          <mxGeometry height="30" width="130" x="-6660" y="-3920" as="geometry" />
+        <mxCell id="-ZqPqNif731-y9DCfJDb-79" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;Augmented Prompt (Query + Context)&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="-6657" y="-3940" as="geometry" />
+        </mxCell>
+        <mxCell id="1-Uz-jjXkxs46chSrYC_-4" parent="1" style="sketch=0;outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud;strokeColor=#AAB7B8;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" value="AWS Cloud" vertex="1">
+          <mxGeometry height="711" width="1030" x="-7098" y="-4111" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
